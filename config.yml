@@ -1,0 +1,11 @@
+hosts:
+    google.com:
+    - httpd
+    - mysql
+    luiscolun.ga:
+    - httpd
+
+data_sender:
+    type: statsd
+    host: localhost
+    port: 8125
